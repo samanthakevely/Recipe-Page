@@ -69,13 +69,47 @@ h3 {
 #preparation {
     background-color: var(--Rose50);
     margin: 30px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
 }
 
 #preparation > ul {
     margin-left: 20px;
     line-height: 1.8em;
-    list-style-position: inside;
+    list-style-position: outside;
 }
 
+#preparation > ul > li {
+    padding-left: 0.8rem;
+}
+
+#preparation > ul > li::marker{
+    color: var(--Rose800);
+}
+
+.recipeTitle {
+    color: var(--Brown800);
+    margin-bottom: 10px;
+}
+
+.recipe {
+    margin: 20px;
+    padding: 20px;
+    list-style-position: outside;
+    border-bottom: 1px solid var(--Stone100);
+}
+
+.recipe > ul, ol {
+    padding-left: 1.2rem;
+}
+
+.recipe > ul > li, ol > li {
+    padding: 5px;
+    padding-left: 0.8rem;
+}
+
+
+section > ol > li::marker {
+    color: var(--Brown800);
+    font-weight: bolder;
+}
