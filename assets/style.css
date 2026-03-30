@@ -58,7 +58,8 @@ header > h1 {
 }
 
 header {
-    margin: 30px;
+    margin: 20px;
+    padding: 10px;
 }
 
 h3 {
@@ -68,9 +69,10 @@ h3 {
 
 #preparation {
     background-color: var(--Rose50);
-    margin: 30px;
+    margin: auto;
     padding: 30px;
     border-radius: 10px;
+    width: 250px;
 }
 
 #preparation > ul {
@@ -93,10 +95,10 @@ h3 {
 }
 
 .recipe {
-    margin: 20px;
-    padding: 20px;
+    margin: 25px;
+    padding: 0px 10px 20px 10px;
     list-style-position: outside;
-    border-bottom: 1px solid var(--Stone100);
+    border-bottom: 2px solid var(--Stone150);
 }
 
 .recipe > ul, ol {
@@ -112,4 +114,35 @@ h3 {
 section > ol > li::marker {
     color: var(--Brown800);
     font-weight: bolder;
+}
+
+.nutrition {
+    margin: 10px;
+    padding: 0px 20px 20px 20px;
+}
+
+.nutrition > p {
+    padding: 10px 0px;
+}
+
+table {
+    width: 300px;
+    border-bottom: 1px solid var(--Stone900);
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 500;
+    width: 50%;
+    text-align: left;
+    padding: 10px 30px;
+    border-bottom: 1px solid var(--Stone100);
+}
+
+td {
+    text-align: left;
+    width: 50%;
+    border-bottom: 1px solid var(--Stone100);
+    color: var(--Brown800);
+    font-weight: bold;
 }
