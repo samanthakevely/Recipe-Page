@@ -41,12 +41,6 @@ body {
     color: var(--Stone600)
 }
 
-body#container { 
-    width: 365px;
-    border: 2px solid black;
-
-}
-
 h1, h2 {
     font-family: 'YoungSerif', serif;
     font-weight: lighter;
@@ -58,8 +52,7 @@ header > h1 {
 }
 
 header {
-    margin: 20px;
-    padding: 10px;
+    margin: 25px;
 }
 
 h3 {
@@ -69,10 +62,9 @@ h3 {
 
 #preparation {
     background-color: var(--Rose50);
-    margin: auto;
+    margin: 25px;
     padding: 30px;
     border-radius: 10px;
-    width: 250px;
 }
 
 #preparation > ul {
@@ -117,8 +109,9 @@ section > ol > li::marker {
 }
 
 .nutrition {
-    margin: 10px;
-    padding: 0px 20px 20px 20px;
+    margin: 25px;
+    padding: 0px 10px 20px 10px;
+    
 }
 
 .nutrition > p {
@@ -126,7 +119,7 @@ section > ol > li::marker {
 }
 
 table {
-    width: 300px;
+    width: 100%;
     border-bottom: 1px solid var(--Stone900);
     border-collapse: collapse;
 }
@@ -145,4 +138,44 @@ td {
     border-bottom: 1px solid var(--Stone100);
     color: var(--Brown800);
     font-weight: bold;
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    
+    body {
+        margin: 20px;
+        background-color: var(--Stone100);
+    }
+
+    img {
+        margin: 25px 25px 0px 25px;
+        width: 750px;
+        border-radius: 20px;
+    }
+    main {
+        max-width: 800px;
+        background-color: var(--White);
+        margin: auto;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        margin: 20px;
+        background-color: var(--Stone100);
+    }
+
+    img {
+        margin: 25px 25px 0px 25px;
+        width: 950px;
+        border-radius: 20px;
+    }
+    main {
+        max-width: 1000px;
+        background-color: var(--White);
+        margin: auto;
+        border-radius: 30px;
+    }
 }
