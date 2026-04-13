@@ -90,14 +90,14 @@ h3 {
     margin: 25px;
     padding: 0px 10px 20px 10px;
     list-style-position: outside;
-    border-bottom: 2px solid var(--Stone150);
+    border-bottom: 1px solid var(--Stone150);
 }
 
-.recipe > ul, ol {
+.recipe > ul, .recipe > ol {
     padding-left: 1.2rem;
 }
 
-.recipe > ul > li, ol > li {
+.recipe > ul > li, .recipe > ol > li {
     padding: 5px;
     padding-left: 0.8rem;
 }
@@ -141,41 +141,43 @@ td {
 }
 
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
-    
+@media screen and (min-width: 992px) {
+
     body {
-        margin: 20px;
         background-color: var(--Stone100);
     }
 
     img {
-        margin: 25px 25px 0px 25px;
-        width: 750px;
         border-radius: 20px;
     }
+
     main {
         max-width: 800px;
+        padding: 25px;
         background-color: var(--White);
         margin: auto;
         border-radius: 30px;
+    }
+
+    header {
+        margin: 25px 0px;
+    }
+
+    #preparation {
+        margin: 25px 0px;
+    }
+
+    .recipe {
+        margin: 25px 0px;
+    }
+
+    .nutrition {
+        margin: 0px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    body {
-        margin: 20px;
-        background-color: var(--Stone100);
-    }
-
-    img {
-        margin: 25px 25px 0px 25px;
-        width: 950px;
-        border-radius: 20px;
-    }
     main {
         max-width: 1000px;
-        background-color: var(--White);
-        margin: auto;
-        border-radius: 30px;
     }
 }
