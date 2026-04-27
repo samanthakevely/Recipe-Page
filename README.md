@@ -19,8 +19,6 @@ This is my solution to the [Recipe page challenge on Frontend Mentor](https://ww
 
 ### Screenshot
 
-![alt text](image-1.png)
-
 ![alt text](image-2.png)
 
 ![alt text](image-3.png)
